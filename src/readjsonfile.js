@@ -5,7 +5,7 @@ import russianData from './lang/russian.json';
 import frenchData from './lang/french.json';
 import BootstrapTable from 'react-bootstrap-table-next';
 import paginationFactory from 'react-bootstrap-table2-paginator';
-import './App.css';
+import './readJsonFile.css';
 
 function ReadJsonFile()
 {
