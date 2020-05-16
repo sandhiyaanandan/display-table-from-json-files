@@ -5,9 +5,9 @@ import russianData from './lang/russian.json';
 import frenchData from './lang/french.json';
 import BootstrapTable from 'react-bootstrap-table-next';
 import paginationFactory from 'react-bootstrap-table2-paginator';
-import './readJsonFile.css';
+import './App.css';
 
-function ReadJsonFile()
+function App()
 {
 	let data = [];
 	let langList = [{lang:"Spanish", data:spanishData},{lang:"Latin", data:latinData},{lang:"French", data:frenchData},{lang:"Russian", data:russianData}];
@@ -41,7 +41,7 @@ function ReadJsonFile()
       headerStyle: { backgroundColor: 'green', color: 'white'}
     }
     ];
-    for( let i =0; i<langList.length; i++)
+    for( let i = 0; i < langList.length; i++)
     {
     	data.push(<p className="langText">{langList[i].lang}</p>);
 	  	data.push(<div className="tableText">
@@ -59,4 +59,4 @@ function ReadJsonFile()
 		</div>)
 	}
 
-export default ReadJsonFile;
+export default App;
