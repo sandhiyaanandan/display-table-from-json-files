@@ -10,7 +10,7 @@ import './readJsonFile.css';
 function ReadJsonFile()
 {
 	let data = [];
-	let langList = [{lang:"spanish", data:spanishData},{lang:"latin", data:latinData},{lang:"french", data:frenchData},{lang:"russian", data:russianData}];
+	let langList = [{lang:"Spanish", data:spanishData},{lang:"Latin", data:latinData},{lang:"French", data:frenchData},{lang:"Russian", data:russianData}];
 	const columns= [{
       dataField: 's_no',
       text: 'S.No',
